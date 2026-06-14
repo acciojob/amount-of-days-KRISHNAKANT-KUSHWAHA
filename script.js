@@ -1,6 +1,6 @@
 //your JS code here. If required.
 
-dayOfAYear( year){
+daysOfAYear( year){
   if (year % 400 === 0) {
     return 366;
   } else if (year % 100 === 0) {
